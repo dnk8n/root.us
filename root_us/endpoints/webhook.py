@@ -1,7 +1,5 @@
 from flask import Blueprint, request
-from ..rehive_client import rehive_client, who_am_i
 # import rehive_client
-from ..dialogflow_fulfillment import make_fulfillment
 from ..intents.user_intents import wallet_fullfilment, who_am_i_fullfillment
 # from ..api import app
 import json
